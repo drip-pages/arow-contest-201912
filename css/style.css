@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* CSS Document */
+.headerBG {
+	background-color: #226084;
+}
+.LogoMenu {
+    width: 50%;
+    cursor: pointer;
+}
+.Header {
+    width: 90%;
+    margin: auto;
+}
+.Header .MenuLink a {
+    color: #fff!important;
+}
+.box01 {
+	background-image: url("../images/bg01.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.top_image {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	text-align: center;
+	min-height: 500px;
+}
+.top_images_logo {
+	width: 50%;
+	display: block;
+	margin-top: -20%;
+}
+
+.contest_image_box {
+ margin-top: -14%;
+}
+.contest_image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contest_image img {
+	width: 300px;
+}
+
+.partition_box {
+	margin-top: 0;
+}
+.partition_image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 0;
+}
+.partition_image img {
+	transform: scale(0.5);
+}
+
+.box02 {
+	padding-top: 2rem;
+	padding-bottom: 10rem;
+	background-image: url("../images/bg02.png");
+	background-position: bottom center;
+	background-size: 800px;
+	background-repeat: repeat-x;
+}
+.box02 h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #00bbee;
+    border-color: #00bbee;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00f0d9;
+    border-color: #00f0d9;
+}
+
+.box03 {
+	padding: 3rem 0 5rem;
+	background-image: url("../images/bg03.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.box03 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+
+.box04 {
+	background-color: #c7f0f8;
+	padding: 4rem 0 4rem;
+}
+.box04 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+.process {
+	width: 80%;
+	margin: 0 auto;
+}
+.box05 {
+	background-color: #dbfbdc;
+	padding: 4rem 0 4rem;
+}
+.box05 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+.arr_y {
+	width: 50px;
+}
+.process03 {
+	width: 50%;
+}
+.process04 {
+	width: 60%;
+}
+.box06 {
+	background-color: #87dfcd;
+	padding: 4rem 0 4rem;
+}
+.box06 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+.box07 {
+	background-color: #f9f6b6;
+	padding: 4rem 0 4rem;
+}
+.box07 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+.box07 h4 {
+	font-weight: normal !important;
+	font-size: 1.4em !important;
+}
+.box07 p {
+	text-align: left;
+}
+.bg_award01 {
+	background: url("../images/bg_award01.png");
+	background-position: left center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.bg_award02 {
+	background: url("../images/bg_award02.png");
+	background-position: right center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.box08 {
+  background-image: -moz-linear-gradient( 90deg, rgb(248,214,97) 0%, rgb(251,249,114) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(248,214,97) 0%, rgb(251,249,114) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(248,214,97) 0%, rgb(251,249,114) 100%);
+	padding: 4rem 0 4rem;
+}
+.box08 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+
+.box09 {
+	background-color: #9fe8d9;
+	padding: 4rem 0 4rem;
+}
+.box09 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+.box09 h4 {
+	font-weight: normal !important;
+	font-size: 1.2em !important;
+}
+.list_area {
+	width: 60%;
+	margin: 0 auto;
+}
+.faq_box {
+	border-bottom: solid 1px #9baba8;
+	padding: 2rem 0;
+}
+.box10 {
+	background-color: #dafbdb;
+	padding: 4rem 0 4rem;
+}
+.box10 h3 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+ul.question {
+	list-style: none;
+	background: url("../images/icon_q.png");
+	background-position: left top;
+	background-size: 1.5em;
+	background-repeat: no-repeat;
+}
+ul.answer {
+	list-style: none;
+	background: url("../images/icon_a.png");
+	background-position: left top;
+	background-size: 1.5em;
+	background-repeat: no-repeat;
+	margin-bottom: 0 !important;
+}
+footer {
+	background-color: #226084;
+	color: #fff;
+}
+footer p {
+	padding-top: 1rem;
+}
+@media screen and (min-width: 768px) {
+.faq_box dt {
+clear: left;
+float: left;
+width: 10%;
+}
+.faq_box dd {
+margin-left: 11%;
+}
+}
+
+.w-25 {
+	width: 25%;
+}
+.w-50 {
+	width: 50%;
+}
+.w-70 {
+	width: 70%;
+}
+.w-80 {
+	width: 80%;
+}
+.w-100 {
+	width: 100%;
+}
+
+
+.mb-6 {
+	margin-bottom: 4rem;
+}
