@@ -95,7 +95,7 @@
 
 .box04 {
 	background-color: #c7f0f8;
-	padding: 4rem 0 4rem;
+	padding: 4rem 0 6rem;
 }
 .box04 h3 {
 	font-weight: normal !important;
@@ -124,23 +124,29 @@
 }
 .box06 {
 	background-color: #87dfcd;
-	padding: 4rem 0 4rem;
+	padding: 4rem 0 6rem;
 }
 .box06 h3 {
 	font-weight: normal !important;
 	font-size: 1.6em !important;
 }
+.box06 h4 {
+	font-weight: normal !important;
+	font-size: 1.4em !important;
+}
 .box07 {
 	background-color: #f9f6b6;
-	padding: 4rem 0 4rem;
+	padding: 4rem 0 6rem;
 }
 .box07 h3 {
 	font-weight: normal !important;
 	font-size: 1.6em !important;
 }
 .box07 h4 {
-	font-weight: normal !important;
-	font-size: 1.4em !important;
+	font-weight: 400 !important;
+	font-size: 1.2em !important;
+	line-height: 1.5em;
+	margin-bottom: 1rem;
 }
 .box07 p {
 	text-align: left;
@@ -161,11 +167,23 @@
   background-image: -moz-linear-gradient( 90deg, rgb(248,214,97) 0%, rgb(251,249,114) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(248,214,97) 0%, rgb(251,249,114) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(248,214,97) 0%, rgb(251,249,114) 100%);
-	padding: 4rem 0 4rem;
+	padding: 4rem 0 6rem;
 }
 .box08 h3 {
 	font-weight: normal !important;
 	font-size: 1.6em !important;
+}
+.box08 h4 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+.box08 h5 {
+	font-weight: normal !important;
+	font-size: 1.6em !important;
+}
+.box08 h6 {
+	font-weight: normal !important;
+	font-size: 1.2em !important;
 }
 
 .box09 {
@@ -226,6 +244,95 @@ width: 10%;
 }
 .faq_box dd {
 margin-left: 11%;
+}
+
+}
+
+@media screen and (min-width: 560px) {
+	.arr_x_area {
+		display: block;
+	}
+	.arr_y_area {
+		display: none !important;
+	}
+}
+@media screen and (max-width: 559px) {
+	.Header {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+	.navbar-brand {
+    display: inline-block;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-right: 0;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+	.LogoMenu {
+    width: 80%;
+    cursor: pointer;
+}
+	.partition_image img {
+	transform: scale(0.35) !important;
+}
+	.top_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 300px;
+}
+	.top_images_logo {
+    width: 80%;
+    display: block;
+    margin-top: -30%;
+}
+	.contest_image img {
+    width: 250px;
+}
+	.contest_image_box {
+    margin-top: -40%;
+}
+	.box02 h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+		line-height: 1.5em;
+}
+	.box02 p {
+		text-align: left !important;
+	}
+	.box05 img.w-100 {
+		width: 80% !important;
+	}
+	.process03 {
+    width: 90%;
+}
+	.process04 {
+    width: 90%;
+}
+	.box05 p {
+		text-align: left;
+	}
+	.arr_x_area {
+		display: none !important;
+	}
+	.arr_y_area {
+		display: block !important;
+		margin-bottom: 1rem;
+	}
+	.box06 p {
+		text-align: left;
+	}
+	.process {
+    width: 100%;
+    margin: 0 auto;
+}
+	.list_area {
+    width: 100%;
+    margin: 0 auto;
 }
 }
 
