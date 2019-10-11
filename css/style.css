@@ -301,6 +301,9 @@ margin-left: 11%;
     font-weight: bold;
 		line-height: 1.5em;
 }
+	.box03 p {
+		text-align: left;
+	}
 	.box02 p {
 		text-align: left !important;
 	}
