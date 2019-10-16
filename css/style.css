@@ -34,7 +34,7 @@
 }
 
 .contest_image_box {
- margin-top: -14%;
+ 
 }
 .contest_image {
 	display: flex;
@@ -43,6 +43,7 @@
 }
 .contest_image img {
 	width: 300px;
+	margin-top: -150px;
 }
 
 .partition_box {
@@ -359,3 +360,5 @@ margin-left: 11%;
 .mb-6 {
 	margin-bottom: 4rem;
 }
+
+
