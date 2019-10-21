@@ -365,5 +365,22 @@ margin-left: 11%;
 .mb-6 {
 	margin-bottom: 4rem;
 }
+.text_link {
+	color: #0092bf;
+	font-weight: bold;
+	transition: color .3s;
+}
+a.text_link:hover {
+    color: #55a7ff;
+    text-decoration: underline;
+}
 
-
+.text_link2 {
+	color: #ef7c7c;
+	font-weight: bold;
+	transition: color .3s;
+}
+a.text_link2:hover {
+    color: #fb0b0b;
+    text-decoration: underline;
+}
