@@ -372,7 +372,7 @@ margin-left: 11%;
 }
 a.text_link:hover {
     color: #55a7ff;
-    text-decoration: underline;
+    text-decoration: none !important;
 }
 
 .text_link2 {
@@ -382,5 +382,5 @@ a.text_link:hover {
 }
 a.text_link2:hover {
     color: #fb0b0b;
-    text-decoration: underline;
+    text-decoration: none !important;
 }
