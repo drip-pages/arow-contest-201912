@@ -276,6 +276,8 @@ margin-left: 11%;
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+		margin: 0 auto;
+    width: 70%;
 }
 	.LogoMenu {
     width: 80%;
@@ -300,7 +302,7 @@ margin-left: 11%;
     width: 250px;
 }
 	.contest_image_box {
-    margin-top: -40%;
+    margin-top: 0;
 }
 	.box02 h1 {
     font-size: 1.3em;
@@ -384,3 +386,5 @@ a.text_link2:hover {
     color: #fb0b0b;
     text-decoration: none !important;
 }
+
+
