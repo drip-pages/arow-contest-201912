@@ -387,4 +387,6 @@ a.text_link2:hover {
     text-decoration: none !important;
 }
 
-
+p {
+	font-feature-settings: "palt";
+}
