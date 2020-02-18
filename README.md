@@ -23,7 +23,8 @@ gitlab のリポジトリの内容を github に push します。
 
 ```
 git fetch origin
+git fetch production
 git merge origin/master
 git diff production/master
-git push production master
+make push
 ```
