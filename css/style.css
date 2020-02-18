@@ -390,3 +390,7 @@ a.text_link2:hover {
 p {
 	font-feature-settings: "palt";
 }
+.fontsize_large {
+	font-size: 1.5em;
+	font-weight: bold;
+}
