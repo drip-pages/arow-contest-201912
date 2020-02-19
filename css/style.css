@@ -121,7 +121,7 @@
 	width: 50%;
 }
 .process04 {
-	width: 60%;
+	width: 70%;
 }
 .box06 {
 	background-color: #87dfcd;
@@ -389,4 +389,8 @@ a.text_link2:hover {
 
 p {
 	font-feature-settings: "palt";
+}
+.fontsize_large {
+	font-size: 1.5em;
+	font-weight: bold;
 }
