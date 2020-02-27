@@ -283,6 +283,18 @@ ul.answer {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+.bg_award05 {
+	background: url("../images/bg_award05.png");
+	background-position: left center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.bg_award06 {
+	background: url("../images/bg_award06.png");
+	background-position: right center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 .box_rusult li {
 	list-style: decimal;
 	color: #FFFFFF;
