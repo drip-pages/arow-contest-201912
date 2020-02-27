@@ -235,6 +235,60 @@ ul.answer {
 	background-repeat: no-repeat;
 	margin-bottom: 0 !important;
 }
+
+
+.box_rusult {
+  background-image: -moz-linear-gradient(rgb(186,0,0) 0%, rgb(154,0,0) 100%);
+  background-image: -webkit-linear-gradient(rgb(186,0,0) 0%, rgb(154,0,0) 100%);
+  background-image: -ms-linear-gradient(rgb(186,0,0) 0%, rgb(154,0,0) 100%);
+	padding: 4rem 0 6rem;
+}
+.box_rusult h3 {
+	font-weight: normal !important;
+	font-size: 1.4em !important;
+	color: #FFFFFF;
+}
+.box_rusult h4 {
+	font-weight: normal !important;
+	font-size: 1.2em !important;
+	color: #FFFFFF;
+}
+.box_rusult h5 {
+	font-weight: normal !important;
+	font-size: 1.2em !important;
+}
+.box_rusult h6 {
+	font-weight: normal !important;
+	font-size: 1.2em !important;
+	line-height: 1.1em;
+}
+.box_rusult h6 span {
+	font-weight: normal !important;
+	font-size: .8em !important;
+}
+.box_rusult p {
+	font-weight: normal !important;
+	font-size: .8em !important;
+	color: #FFFFFF;
+}
+.bg_award03 {
+	background: url("../images/bg_award03.png");
+	background-position: left center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.bg_award04 {
+	background: url("../images/bg_award04.png");
+	background-position: right center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.box_rusult li {
+	list-style: decimal;
+	color: #FFFFFF;
+	font-size: .8em !important;
+}
+
 footer {
 	background-color: #226084;
 	color: #fff;
@@ -251,9 +305,16 @@ width: 10%;
 .faq_box dd {
 margin-left: 11%;
 }
+	.col-md-1 {
+		padding-right: 0 !important;
+	}
 
 }
-
+@media (min-width: 576px) {
+.container {
+    max-width: 95% !important;
+}
+	}
 @media screen and (min-width: 560px) {
 	.arr_x_area {
 		display: block;
@@ -345,6 +406,12 @@ margin-left: 11%;
     width: 100%;
     margin: 0 auto;
 }
+	.box_rusult p {
+		text-align: left !important;
+	}
+	.box_rusult img.w-100 {
+		width: 70% !important;
+	}
 }
 
 .w-25 {
@@ -363,7 +430,9 @@ margin-left: 11%;
 	width: 100%;
 }
 
-
+.margin_lr_auto {
+	margin: 0 auto;
+}
 .mb-6 {
 	margin-bottom: 4rem;
 }
