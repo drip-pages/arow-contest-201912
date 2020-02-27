@@ -255,7 +255,8 @@ ul.answer {
 }
 .box_rusult h5 {
 	font-weight: normal !important;
-	font-size: 1.2em !important;
+	font-size: 1em !important;
+	color: #FFFFFF;
 }
 .box_rusult h6 {
 	font-weight: normal !important;
